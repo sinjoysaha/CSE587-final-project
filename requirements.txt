@@ -1,0 +1,16 @@
+matplotlib
+torch
+transformers
+torchvision
+accelerate
+trl
+peft
+bitsandbytes
+evaluate
+datasets
+rouge-score
+bert-score
+scikit-learn
+numpy
+pandas
+tqdm
