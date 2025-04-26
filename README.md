@@ -35,7 +35,7 @@
 ## Dataset Curation
 
 <center>
-<img src="images/CS_Categories.png" width="40%">
+<img src="images/CS_Categories.png">
         </div>
 </center>
 
@@ -57,7 +57,7 @@ To prepare the dataset for our task, we apply the following pre-processing steps
 ### Dataset Distribution
 
 <center>
-<img src="images/data-dist.png" width="40%">
+<img src="images/data-dist.png">
 </center>
 
 
@@ -67,7 +67,7 @@ To prepare the dataset for our task, we apply the following pre-processing steps
 ### Training Plots
 
 <center>
-<img src="images/training_plots.png" width="60%">
+<img src="images/training_plots.png">
 </center>
 
 ### Evaluation Metrics
@@ -77,16 +77,16 @@ To prepare the dataset for our task, we apply the following pre-processing steps
 - **BERT Score**: Measured the cosine similarity between generated- and ground-truth- texts, leveraging pretrained contextual embeddings from BERT.
 
 <center>
-<img src="images/results.png" width="40%">
+<img src="images/results.png">
 </center>
 
 ### Example
 
 <center>
-<img src="images/example.png" width="40%">
+<img src="images/example.png">
 </center>
 
 <center>
-<img src="images/example-output.png" width="40%">
+<img src="images/example-output.png">
 </center>
 
