@@ -10,8 +10,6 @@
 
 <div align="center">
 <img src="images/project.png" width="80%">
-
-<!-- <img src="images/project-logo-rnn.jpg" width="80%"> -->
 </div>
 
 <br>
@@ -34,11 +32,6 @@
 
 ## Dataset Curation
 
-<center>
-<img src="images/CS_Categories.png">
-        </div>
-</center>
-
 For this study, we use the PubMedQA dataset [1], a biomedical question-answering corpus constructed from PubMed abstracts. It comprises three subsets: PQA-L (expert-labeled), PQA-A (automatically generated), and PQA-U (unlabeled). We utilize the PQA-L subset, which includes 1,000 high-quality expert-annotated samples. Each sample contains a research question derived from a biomedical article title, along with a long answer corresponding to the article’s conclusion. Although originally intended for QA classification, the long answer often includes methodological insights and outcome summaries. This makes the dataset well-suited for instruction tuning of large language models
 (LLMs) to generate research methodologies conditioned on biomedical research questions.
 
@@ -56,9 +49,9 @@ To prepare the dataset for our task, we apply the following pre-processing steps
 
 ### Dataset Distribution
 
-<center>
+<div align="center">
 <img src="images/data-dist.png">
-</center>
+</div>
 
 
 ## Results
@@ -66,9 +59,9 @@ To prepare the dataset for our task, we apply the following pre-processing steps
 
 ### Training Plots
 
-<center>
+<div align="center">
 <img src="images/training_plots.png">
-</center>
+</div>
 
 ### Evaluation Metrics
 
@@ -76,17 +69,17 @@ To prepare the dataset for our task, we apply the following pre-processing steps
 - **ROUGE** (Recall-Oriented Understudy for Gisting Evaluation) Score: Evaluates the quality of the generated text by computing recall-based overlap with the ground-truth texts.
 - **BERT Score**: Measured the cosine similarity between generated- and ground-truth- texts, leveraging pretrained contextual embeddings from BERT.
 
-<center>
+<div align="center">
 <img src="images/results.png">
-</center>
+</div>
 
 ### Example
 
-<center>
+<div align="center">
 <img src="images/example.png">
-</center>
+</div>
 
-<center>
+<div align="center">
 <img src="images/example-output.png">
-</center>
+</div>
 
