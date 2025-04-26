@@ -16,11 +16,11 @@
 
 <br>
 
-👉 CSE 587: Deep Learning for NLP - Midterm Project (Spring 2025)
+👉 CSE 587: Deep Learning for NLP - Final Project (Spring 2025)
 
 👉 **Contributors**: `Sinjoy Saha`, `Xin Dong`
 
-👉 Read the full report [here](/CSE_587_Midterm_Project_Report.pdf).
+👉 Read the full report [here](/CSE_587_Final_Project_Report.pdf).
 
 ## 🔍Table of Contents
 
